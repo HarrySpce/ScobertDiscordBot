@@ -8,7 +8,7 @@ const imageUrls = [
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('scobert')
+        .setName('dog')
         .setDescription('Get a random picture of Scoobert'),
     async execute(interaction) {
         const randomImageUrl = imageUrls[Math.floor(Math.random() * imageUrls.length)];
